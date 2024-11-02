@@ -8,9 +8,7 @@ const PORT = 3000;
 
 app.use(express.json());
 
-const DB_URI =
-  "mongodb+srv://nasrin:nasrin1024@mernbatch-6.zsj87.mongodb.net/Backend_Exam_21";
-
+const DB_URI ="" // Your MongoDB URL
 mongoose
   .connect(DB_URI)
   .then(() => console.log("Connected to MongoDB"))
